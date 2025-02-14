@@ -1,0 +1,40 @@
+.back-ground {
+    background-image: url(../imgs/france.svg);
+    height: 100vh;
+    overflow: auto;
+}
+
+.pos {
+    position: absolute;
+    left: 0px;
+    top: 25%;
+}
+
+.bg-new {
+    background-color: #3199ab;
+}
+
+.bg-little {
+    background-color: #374850;
+    ;
+}
+
+.text-new {
+    color: #bfc1c8;
+}
+
+.text-gray {
+    color: #455a64;
+}
+
+.bg-new2 {
+    background-color: #82bbc4;
+    transition: background-color 0.5s ;
+}
+
+.next-day:hover .bg-new2{
+    background-color:#3199ab; ;
+}
+.vh-50{
+    height: 55vh;
+}

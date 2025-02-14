@@ -1,0 +1,110 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="back-ground">
+        <div class="m-5">
+            <div class="col-md-5 m-md-auto position-relative ">
+                <input type="text" class="form-control rounded-pill p-2 " placeholder=" Search City..." id="Search">
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 my-5">
+                    <div id="todayDetails">
+                        <div class="d-flex justify-content-between align-items-center bg-little p-2 text-new fs-5">
+                            <p id="today"></p>
+                            <p id="today-date"></p>
+                        </div>
+                        <div class="bg-new text-white py-5 px-2 vh-50">
+                            <p class="fs-3 text-center" id="name"></p>
+                            <p class="fs-4 text-center" id="country"></p>
+                            <div class="d-flex justify-content-between">
+                                <div class="d-flex mb-1 w-100">
+                                    <p class="fs-1" id="today-temp"></p>
+                                    <p class="fs-1"><sup>o</sup>C</p>
+
+                                </div>
+                                <div><img src="" alt="" class="w-100" id="today-icon"></div>
+                            </div>
+                            <p class="fs-5 text-gray" id="today-status"></p>
+                            <div class="mx-2 mt-5"><i class="fa-solid fa-umbrella text-white"></i>
+                                <span id="humidity"></span>
+                                <span>%</span>
+                                <i class="fa-solid fa-wind"></i>
+                                <span id="wind"></span>
+                                <span>Km/h</span>
+                                <i class="fa-regular fa-compass"></i>
+                                <span id="wind-dir"></span>
+                            </div>
+
+
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-md-4 my-5 next-day ">
+                    <div class="d-flex justify-content-center align-items-center bg-little p-2 text-new fs-5">
+                        <p id="tomorrow">thursday</p>
+                    </div>
+                    <div class=" bg-new2 text-white py-5 vh-50">
+                        <div class="d-flex justify-content-center"> <img id="second-icon" src="" alt=""></div>
+                        <div class="d-flex mb-1 w-100 fs-1 justify-content-center ">
+                            <p id="tomorrow-temp-max"></p>
+                            <p class=""><sup>o</sup>C</p>
+
+
+                        </div>
+                        <div class="d-flex mb-1 w-100 fs-6 justify-content-center ">
+                            <p id="tomorrow-temp-min"></p>
+                            <p class=""><sup>o</sup>C</p>
+
+
+                        </div>
+
+                        <p class="fs-5 text-gray text-center" id="second-condition"></p>
+                    </div>
+                </div>
+                <div class="col-md-4 my-5 next-day ">
+                    <div class="d-flex justify-content-center align-items-center bg-little p-2 text-new fs-5">
+                        <p id="third-day"></p>
+                    </div>
+                    <div class=" bg-new2 text-white py-5 vh-50">
+                        <div class="d-flex justify-content-center"> <img id="third-icon" src="" alt="">
+                        </div>
+                        <div class="d-flex mb-1 w-100 fs-1 justify-content-center ">
+                            <p id="third-day-temp-max"></p>
+                            <p class=""><sup>o</sup>C</p>
+
+
+                        </div>
+                        <div class="d-flex mb-1 w-100 fs-6 justify-content-center ">
+                            <p id="third-day-temp-min"></p>
+                            <p class=""><sup>o</sup>C</p>
+
+
+                        </div>
+
+                        <p class="fs-5 text-gray text-center" id="third-condition"></p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
